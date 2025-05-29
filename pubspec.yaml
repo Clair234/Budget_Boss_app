@@ -1,0 +1,55 @@
+name: budget_boss_new
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.71.0
+  firebase_core: ^3.13.0
+  bloc: ^8.1.3
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.6.6
+  firebase_auth_web: ^5.14.2
+  firebase_storage: ^12.4.5
+  universal_platform: ^1.0.0+1
+  image_picker: ^0.8.7+4
+  provider: ^6.1.5
+  mockito: ^5.4.2
+  build_runner: ^2.4.6
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icons/Budget_Boss_2.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons/budgetlogo-removebg-preview.png
+    - assets/images/icons/undraw_authentication_tbfc-removebg-preview.png
+    - assets/images/icons/undraw_crypto-portfolio_cat6-removebg-preview.png
+    - assets/images/icons/undraw_data-points_1q5h-removebg-preview.png
+    - assets/images/icons/undraw_digital-currency_u5p6-removebg-preview-1.png
+    - assets/images/icons/undraw_going-offline_v4oo-removebg-preview-1.png
+    - assets/images/icons/undraw_secure-login_m11a__1_-removebg-preview.png
+    - assets/images/icons/undraw_secure-login_m11a.png
+    - assets/images/icons/undraw_team-page_q5am-removebg-preview-1.png
+    - assets/images/icons/undraw_visual-data_3ghp-removebg-preview.png
+    - assets/images/icons/undraw_young-man-avatar_wgbd-removebg-preview.png
+    - assets/images/icons/Budget_Boss_2.jpeg
